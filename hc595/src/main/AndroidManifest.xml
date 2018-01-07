@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zly.android.things.contrib.driver.hc595">
+
+    <application>
+        <uses-library
+            android:name="com.google.android.things"
+            android:required="false" />
+    </application>
+</manifest>
