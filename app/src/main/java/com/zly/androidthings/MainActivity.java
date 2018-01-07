@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.i(TAG, "Starting MainActivity");
-        mSegmentDisplay = new NumericDisplay("BCM22", "BCM17", "BCM27");
+        mSegmentDisplay = new NumericDisplay("BCM26", "BCM5", "BCM6");
 //        mSegmentDisplay.display("12.34");
         for (int i = 0; i < 1000; i++) {
             try {
